@@ -19,9 +19,10 @@ import axios from 'axios';
 
 export class CreateAccountForm extends React.Component {
     constructor(props){
+      console.log(localStorage.getItem("rememberMe"))
       super(props)
     }
-
+    
     render() {
     
       return (
